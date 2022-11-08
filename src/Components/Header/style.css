@@ -1,0 +1,805 @@
+header {
+    position: absolute;
+    width: 1920px;
+    height: 849px;
+    left: -3px;
+    top: 0px;
+
+    background: linear-gradient(108.11deg, #000000 37.68%, rgba(0, 0, 0, 0) 85.37%);
+    background-image: url(../../../../public/bg.png);
+}
+
+
+.container {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.nav {
+    position: absolute;
+    width: 1060px;
+    height: 86.1px;
+    left: 429px;
+    top: 16px;
+    display: flex;
+
+
+}
+
+.list {
+    width: 401px;
+    height: 26px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.item {
+    margin-top: 17px;
+    height: 26px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+
+}
+
+.link {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.nav_btn {
+    width: 214px;
+    height: 55px;
+    border: none;
+
+    background: #5BBFC8;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+}
+
+.number_phone {
+    width: 178px;
+    height: 19px;
+    text-decoration: none;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.menu {
+    position: absolute;
+    top: -500px;
+    width: 48px;
+    height: 48px;
+}
+
+.right_list {
+    display: flex;
+    align-items: center;
+}
+
+.mobilny {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    -webkit-transform: lowercase;
+    -moz-transform: lowercase;
+    -ms-transform: lowercase;
+    -o-transform: lowercase;
+
+    position: absolute;
+    width: 905px;
+    height: 173px;
+    left: 429px;
+    top: 184px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 80px;
+    /* or 125% */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.text {
+    position: absolute;
+    width: 540px;
+    height: 104px;
+    left: 429px;
+    top: 376px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+
+.racing_btn {
+    position: absolute;
+    width: 250px;
+    height: 66px;
+    left: 429px;
+    top: 511px;
+
+    background: #FFD200;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+
+
+.mob {
+    position: absolute;
+    width: 412px;
+    height: 263px;
+    left: 429px;
+    top: 662px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    background-image: url(../../../../public/pic.png);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.stoi {
+    position: relative;
+    width: 108px;
+    height: 33px;
+    left: 14px;
+    top: 17px;
+
+    background: #D3D4D6;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.koles {
+    position: relative;
+    width: 241px;
+    height: 80px;
+    left: 16px;
+    top: 25px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.kalta {
+    position: relative;
+    width: 88px;
+    height: 7px;
+    top: 20px;
+
+    background: #171717;
+    border-radius: 5px;
+}
+
+.uslugi {
+    position: relative;
+    width: 300px;
+    height: 47px;
+    left: 14px;
+    top: 20px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+.cars {
+    position: relative;
+    width: 200px;
+    height: 260px;
+    top: -240px;
+    left: 430px;
+
+    background: #FFD300;
+    border-radius: 10px;
+}
+
+.narx_cars {
+    position: relative;
+    width: 81.82px;
+    height: 25px;
+    left: 23px;
+    top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    background: #DEB905;
+    border-radius: 5px;
+}
+
+.legkovie {
+    position: relative;
+    width: 155px;
+    height: 58px;
+    left: 23px;
+    top: 25px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 25px;
+    /* or 132% */
+
+
+    color: #000000;
+
+}
+
+.sedan {
+    position: absolute;
+    left: 18px;
+    right: 9.87%;
+    top: 166px;
+    bottom: 89.2%;
+
+    background: url(001-sedan.png);
+    opacity: 0.5;
+}
+
+.carsd {
+    position: relative;
+    width: 200px;
+    height: 260px;
+    top: -500px;
+    left: 650px;
+
+    background: #4B5257;
+    border-radius: 10px;
+}
+
+.narx_carsd {
+    position: relative;
+    width: 78.65px;
+    height: 25.19px;
+    left: 23px;
+    top: 50px;
+
+    background: #B0B0B0;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.width {
+    left: 23px;
+    width: 166px;
+}
+
+.jeep {
+    position: absolute;
+    left: 10.25%;
+    right: 38.12%;
+    top: 156px;
+    bottom: 87.84%;
+
+    background: url(002-jeep.png);
+    opacity: 0.5;
+}
+
+.carsn {
+    position: absolute;
+    width: 200px;
+    height: 260px;
+    left: 882px;
+    top: 5px;
+
+    background: #5BBFC8;
+    border-radius: 10px;
+}
+
+.nnnvv {
+    background-color: #49A1A9;
+    color: #534407;
+}
+.hide{
+    transform:translateX(500%);
+    -webkit-transform:translateX(500%);
+    -moz-transform:translateX(500%);
+    -ms-transform:translateX(500%);
+    -o-transform:translateX(500%);
+}
+.menuk{
+    display: none;
+}
+.btnnnnn{
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .btnnnnn{
+        display: block;
+    }
+    header {
+        position: absolute;
+        width: 375px;
+        left: -3px;
+        top: 0px;
+
+        background: linear-gradient(108.11deg, #000000 37.68%, rgba(0, 0, 0, 0) 85.37%);
+        background-image: url(../../../../public/bg1.png);
+    }
+
+    .container {
+        width: 331px;
+        margin: 0 auto;
+    }
+
+    .nav {
+        position: absolute;
+        width: 331px;
+        height: 86.1px;
+        left: 429px;
+        top: 16px;
+        display: flex;
+
+
+    }
+
+    .logo {
+        position: absolute;
+        left: -400px;
+        width: 134px;
+        height: 66px;
+    }
+
+    .list {
+        width: 401px;
+        height: 26px;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        display: none;
+    }
+
+    .item {
+        margin-top: 17px;
+        height: 26px;
+
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 22px;
+        display: none;
+
+    }
+
+    .link {
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+        display: none;
+    }
+
+    .nav_btn {
+        width: 214px;
+        height: 55px;
+        border: none;
+
+        background: #5BBFC8;
+        border-radius: 5px;
+        color: #000;
+        font-size: 16px;
+        display: none;
+    }
+
+    .number_phone {
+        width: 178px;
+        height: 19px;
+        text-decoration: none;
+
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+
+        color: #FFFFFF;
+        display: none;
+    }
+
+    .menu {
+        top: 0;
+        left: -120px;
+        width: 48px;
+        height: 48px;
+    }
+
+    .right_list {
+        display: flex;
+        align-items: center;
+        display: none;
+    }
+
+    .mobilny {
+        position: absolute;
+        width: 335px;
+        height: 141px;
+        left: 24.09px;
+        top: 100px;
+
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 33px;
+        line-height: 45px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    .text {
+        position: absolute;
+        width: 325px;
+        height: 98px;
+        left: 24.09px;
+        top: 200px;
+
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+
+        color: #FFFFFF;
+    }
+
+    .racing_btn {
+
+        position: absolute;
+        width: 250px;
+        height: 66px;
+        left: 60px;
+        top: 438px;
+
+        background: #FFD200;
+        border-radius: 5px;
+        border: none;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        /* identical to box height */
+
+
+        color: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    .mob {
+        position: absolute;
+        width: 331px;
+        height: 263px;
+        left: 23px;
+        top: 582px;
+
+        background: #FFFFFF;
+        border-radius: 10px;
+
+        background-image: url(../../../../public/pic.png);
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .stoi {
+        position: relative;
+        width: 108px;
+        height: 33px;
+        left: 14px;
+        top: 17px;
+
+        background: #D3D4D6;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .koles {
+        position: relative;
+        width: 241px;
+        height: 80px;
+        left: 16px;
+        top: 25px;
+
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 27px;
+
+        color: #000000;
+    }
+
+    .kalta {
+        position: relative;
+        width: 88px;
+        height: 7px;
+        top: 20px;
+
+        background: #171717;
+        border-radius: 5px;
+    }
+
+    .uslugi {
+        position: relative;
+        width: 300px;
+        height: 47px;
+        left: 14px;
+        top: 20px;
+
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+
+        color: #000000;
+    }
+
+    .cars {
+        position: relative;
+        width: 331px;
+        height: 170px;
+        top: 30px;
+        left: 0;
+
+        background: #FFD300;
+        border-radius: 10px;
+    }
+
+    .narx_cars {
+        position: relative;
+        width: 81.82px;
+        height: 25px;
+        left: 23px;
+        top: 50px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+        background: #DEB905;
+        border-radius: 5px;
+    }
+
+    .legkovie {
+        position: relative;
+        width: 155px;
+        height: 58px;
+        left: 23px;
+        top: 25px;
+
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 19px;
+        line-height: 25px;
+        /* or 132% */
+
+
+        color: #000000;
+
+    }
+
+    .sedan {
+        position: absolute;
+        left: 60.93%;
+        right: 9.87%;
+        top: 86px;
+        bottom: 89.2%;
+
+        background: url(001-sedan.png);
+        opacity: 0.5;
+    }
+
+    .carsd {
+        left: 0;
+        position: relative;
+        width: 333px;
+        height: 170px;
+        top: 40px;
+        left: 0;
+
+        background: #4B5257;
+        border-radius: 10px;
+    }
+
+    .narx_carsd {
+        position: relative;
+        width: 78.65px;
+        height: 25.19px;
+        left: 23px;
+        top: 50px;
+
+        background: #B0B0B0;
+        border-radius: 5px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .width {
+        left: 23px;
+        width: 166px;
+    }
+
+    .jeep {
+        position: relative;
+        left: 60.27%;
+        right: 8.53%;
+        top: -110px;
+        bottom: 87.73%;
+
+        background: url(002-jeep.png);
+        opacity: 0.5;
+    }
+
+    .carsn {
+        position: relative;
+        width: 331px;
+        height: 170px;
+        top: 50px;
+        left: 0;
+
+        background: #5BBFC8;
+        border-radius: 10px;
+    }
+
+    .nnnvv {
+        background-color: #49A1A9;
+        color: #534407;
+    }
+    .hide{
+        transform:translateX(500%);
+        -webkit-transform:translateX(500%);
+        -moz-transform:translateX(500%);
+        -ms-transform:translateX(500%);
+        -o-transform:translateX(500%);
+}
+    .menuk {
+        position: absolute;
+        width: 413.62px;
+        height: 567px;
+        left: 0;
+        background: #17181C;
+        display: block;
+        color: #FFFFFF;
+        transition: all 0.4s ease;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+}
+
+    .logo_menu {
+        width: 136px;
+        height: 66px;
+        margin-top: 28px;
+        margin-left: 47px;
+    }
+
+    .close {
+        position: absolute;
+        left: 330px;
+        top: 45px;
+    }
+
+    .list_menu {
+        position: absolute;
+        width: 216.9px;
+        height: 165px;
+
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 40px;
+        list-style-type: none;
+        /* or 200% */
+
+        text-align: center;
+
+        color: #FFFFFF;
+        top: 120px;
+        left: 40px;
+    }
+
+    .link_menu {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .right_list_menu {
+        position: absolute;
+        width: 216.9px;
+        height: 165px;
+
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 40px;
+        list-style-type: none;
+        /* or 200% */
+
+        text-align: center;
+        color: #FFFFFF;
+        top: 400px;
+        left: 40px;
+
+    }
+
+    .right_link_menu {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .nav_btn_menu {
+        position: absolute;
+        width: 215.89px;
+        height: 55px;
+        left: 50px;
+        background: #5BBFC8;
+        border-radius: 5px;
+    }
+}

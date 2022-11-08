@@ -1,9 +1,9 @@
 import React from 'react';
-import Aside from './assets/Components/Aside';
-import Footer from './assets/Components/Footer';
-import Header from './assets/Components/Header/Header'
-import Main from './assets/Components/Main';
-import Section from './assets/Components/Section';
+import Aside from './Components/Aside';
+import Footer from './Components/Footer';
+import Header from './Components/Header/Header'
+import Main from './Components/Main';
+import Section from './Components/Section';
 
 const App = () => {
   return (
