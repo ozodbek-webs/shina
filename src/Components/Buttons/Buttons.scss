@@ -1,0 +1,22 @@
+.btn {
+  &__black {
+    padding: 20px 30px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #ffffff;
+    background: #17181c;
+    border-radius: 5px;
+    transition: all 0.5s;
+    &:hover {
+      transform: translateY(-0.2rem);
+      box-shadow: 0 1.5rem 2rem rgb(0 0 0 / 20%);
+    }
+    &:active {
+      transform: translateY(0.1rem);
+    }
+  }
+}
