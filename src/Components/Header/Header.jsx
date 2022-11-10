@@ -52,23 +52,34 @@ const Header = () => {
           ШИНОМОНТАЖ №1
         </h1>
         <p className='text'>В интернет-магазине шин Шины Мигом вы можете купить шины известных брендов. Подбор осуществляется как по типоразмеру, так и по марке авто</p>
-        <button className='racing_btn' onClick={()=>added()}>
+        <button className='racing_btn' onClick={() => added()}>
           Вызвать шиномонтаж
           <img src={racing} alt="" />
         </button>
       </div>
       <div className="container">
-        <div className="mob">
-          <div className="stoi">
-            Стоимость
+        <div className="wrapper">
+
+
+          <div className="mob">
+            <div className="div">
+              <div className="stoi">
+                Стоимость
+              </div>
+              <div>
+                <div className="container">
+                  <h5 className='koles'>
+                    МОБИЛЬНЫЙ РЕМОНТ И ЗАМЕНА КОЛЕС
+                    <div className="kalta"></div>
+                  </h5>
+                </div>
+                <div className="container">
+                  <p className='uslugi'>Услуги выездного шиномонтажа в СПб и ЛО для транспортных средств</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div>
-            <h5 className='koles'>
-              МОБИЛЬНЫЙ РЕМОНТ И ЗАМЕНА КОЛЕС
-              <div className="kalta"></div>
-            </h5>
-            <p className='uslugi'>Услуги выездного шиномонтажа в СПб и ЛО для транспортных средств</p>
-          </div>
+
           <div className="cars">
             <div className="narx_cars">от 199₽ </div>
             <h5 className='legkovie'>
@@ -91,6 +102,7 @@ const Header = () => {
             <img src={truck} alt="" className="jeep" />
           </div>
         </div>
+
       </div>
       <div className="menuk hide">
         <img src={logo} alt="" className="logo_menu" />
@@ -108,43 +120,63 @@ const Header = () => {
           </button></a></li>
         </ul>
       </div>
+      <h1 className='dlya'>
+        Для юридических лиц
+      </h1>
+      <h3 className='aksiya'><mark>Акция!</mark>   Первое авто бесплатно!</h3>
       <div className="aside">
-        <h1 className='dlya'>
-          Для юридических лиц
-        </h1>
-        <h3 className='aksiya'><mark>Акция!</mark>   Первое авто бесплатно!</h3>
-        <img src={carPark} alt="" className='carPark' />
-        <div className="Tepaga1"></div>
-        <div className="Tepaga2"></div>
-        <div className="Tepaga3"></div>
-        <div className="Tepaga4"></div>
-        <h4 className='rabota'>
-          Работа с НДС <br />
-          Комплексное обслуживание автопарков<br />
-          Заключение договора<br />
-          Оплата после выполнения работ<br />
-        </h4>
-        <h6 className='vash'>
-          Ваш телефон
-        </h6>
-        <input type="number" className='inputNumbur' placeholder='+7 ( _ _ _ )   _ _ _    _ _    _ _' />
-        <button className="callNumber">
-          Оформить заявку
-        </button>
-      </div>
-      <div className='tellcall hiden'>
-          <button className='btncall' onClick={()=>{
-            removed()
-          }}>
-            <img src={close} alt="" />
-          </button>
-          <h1 className='tellcalltitle'>
-          МОБИЛЬНЫЙ ШИНОМОНТАЖ 24 ЧАСА В СУТКИ
-          </h1>
-          <p className='tellcalltitlebash'>
-          Ваш телефон
-          </p>
-          <input type="text" placeholder='+7 ( _ _ _ )   _ _ _    _ _    _ _' className='tellcalltitleinput'/>
+        <div className="Tepaga">
+          <div className="divtek">
+
+            <img src={carPark} alt="" className='carPark' />
+            <div className="divcha">
+              <div className="salom">
+                <div className="div">
+                  <div className="Tepaga1"></div>
+                  <div className="Tepaga2"></div>
+                  <div className="Tepaga3"></div>
+                  <div className="Tepaga4"></div>
+                </div>
+
+                <h4 className='rabota'>
+                  Работа с НДС <br />
+                  Комплексное обслуживание автопарков<br />
+                  Заключение договора<br />
+                  Оплата после выполнения работ<br />
+                </h4>
+              </div>
+
+              <h6 className='vash'>
+                Ваш телефон
+              </h6>
+              <input type="number" className='inputNumbur' placeholder='+7 ( _ _ _ )   _ _ _    _ _    _ _' />
+              <button className="callNumber">
+                Оформить заявку
+              </button>
+            </div>
+          </div>
+
+
+
+
+
+          <div className='tellcall hiden'>
+            <button className='btncall' onClick={() => {
+              removed()
+            }}>
+              <img src={close} alt="" />
+            </button>
+            <h1 className='tellcalltitle'>
+              МОБИЛЬНЫЙ ШИНОМОНТАЖ 24 ЧАСА В СУТКИ
+            </h1>
+            <p className='tellcalltitlebash'>
+              Ваш телефон
+            </p>
+            <input type="text" placeholder='+7 ( _ _ _ )   _ _ _    _ _    _ _' className='tellcalltitleinput' />
+
+          </div>
+        </div>
+
       </div>
     </header>
 

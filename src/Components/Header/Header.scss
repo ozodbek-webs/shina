@@ -1,6 +1,6 @@
 header {
     position: absolute;
-    width: 1920px;
+    width: 100%;
     height: 849px;
     left: -3px;
     top: 0px;
@@ -11,17 +11,15 @@ header {
 
 
 .container {
-    width: 1060px;
+    width: 80%;
     margin: 0 auto;
 }
 
 .nav {
-    position: absolute;
     width: 1060px;
     height: 86.1px;
-    left: 429px;
-    top: 16px;
     display: flex;
+    margin-top: 16px;
 
 
 }
@@ -88,6 +86,7 @@ header {
 .right_list {
     display: flex;
     align-items: center;
+    list-style-type: none;
 }
 
 .mobilny {
@@ -98,11 +97,8 @@ header {
     -ms-transform: lowercase;
     -o-transform: lowercase;
 
-    position: absolute;
     width: 905px;
     height: 173px;
-    left: 429px;
-    top: 184px;
 
     font-family: 'Manrope';
     font-style: normal;
@@ -117,11 +113,8 @@ header {
 }
 
 .text {
-    position: absolute;
     width: 540px;
     height: 104px;
-    left: 429px;
-    top: 376px;
 
     font-family: 'Manrope';
     font-style: normal;
@@ -133,11 +126,8 @@ header {
 }
 
 .racing_btn {
-    position: absolute;
     width: 250px;
     height: 66px;
-    left: 429px;
-    top: 511px;
 
     background: #FFD200;
     border-radius: 5px;
@@ -161,11 +151,8 @@ header {
 
 
 .mob {
-    position: absolute;
     width: 412px;
     height: 263px;
-    left: 429px;
-    top: 662px;
 
     background: #FFFFFF;
     border-radius: 10px;
@@ -178,11 +165,8 @@ body {
 }
 
 .stoi {
-    position: relative;
     width: 108px;
     height: 33px;
-    left: 14px;
-    top: 17px;
 
     background: #D3D4D6;
     border-radius: 5px;
@@ -192,11 +176,8 @@ body {
 }
 
 .koles {
-    position: relative;
     width: 241px;
     height: 80px;
-    left: 16px;
-    top: 25px;
 
     font-family: 'Manrope';
     font-style: normal;
@@ -208,21 +189,17 @@ body {
 }
 
 .kalta {
-    position: relative;
+    margin: 35px;
     width: 88px;
     height: 7px;
-    top: 20px;
 
     background: #171717;
     border-radius: 5px;
 }
 
 .uslugi {
-    position: relative;
     width: 300px;
     height: 47px;
-    left: 14px;
-    top: 20px;
 
     font-family: 'Manrope';
     font-style: normal;
@@ -233,12 +210,16 @@ body {
     color: #000000;
 }
 
+.wrapper {
+    margin-top: 85px;
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+
 .cars {
-    position: relative;
     width: 200px;
     height: 260px;
-    top: -240px;
-    left: 430px;
 
     background: #FFD300;
     border-radius: 10px;
@@ -278,22 +259,17 @@ body {
 }
 
 .sedan {
-    position: absolute;
-    left: 18px;
     right: 9.87%;
-    top: 166px;
     bottom: 89.2%;
+    margin-left: 18px;
 
     background: url(001-sedan.png);
     opacity: 0.5;
 }
 
 .carsd {
-    position: relative;
     width: 200px;
     height: 260px;
-    top: -500px;
-    left: 650px;
 
     background: #4B5257;
     border-radius: 10px;
@@ -319,22 +295,17 @@ body {
 }
 
 .jeep {
-    position: absolute;
-    left: 10.25%;
     right: 38.12%;
-    top: 156px;
     bottom: 87.84%;
+    margin-left: 18px;
 
     background: url(002-jeep.png);
     opacity: 0.5;
 }
 
 .carsn {
-    position: absolute;
     width: 200px;
     height: 260px;
-    left: 882px;
-    top: 5px;
 
     background: #5BBFC8;
     border-radius: 10px;
@@ -586,7 +557,7 @@ body {
     }
 
     .uslugi {
-        position: relative;
+        // position: relative;
         width: 300px;
         height: 47px;
         left: 14px;
@@ -811,32 +782,22 @@ body {
 }
 
 .dlya {
-    position: absolute;
-    width: 882px;
-    height: 85px;
-    left: 517px;
-    top: 1041px;
-
+    margin-top: 85px;
+    background: none;
+    text-align: center;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 800;
     font-size: 45px;
     line-height: 55px;
     /* or 122% */
-
-    text-align: center;
     text-transform: uppercase;
 
     color: #17181C;
 }
 
 .aksiya {
-    position: absolute;
-    width: 422px;
-    height: 38px;
-    left: 763px;
-    top: 1107px;
-
+text-align: center;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
@@ -849,71 +810,57 @@ body {
 }
 
 .carPark {
-    position: absolute;
-    width: 979px;
-    height: 569px;
-    left: -37px;
-    top: 1208px;
+    width: 50%;
+    height: 450px;
 }
 
 .aside {
     background: #E5E5E5;
+    // display: flex;
 }
 
+.divtek{display: flex;
+    
+}
 .Tepaga1 {
-    position: absolute;
-    width: 28px;
-    height: 5px;
-    left: 1012px;
-    top: 1294px;
-
+    margin-top: 40px;
+    width: 5px;
+    height: 28px;
     background: #171717;
     border-radius: 5px;
-    transform: rotate(-90deg);
 }
 
 .Tepaga2 {
-    position: absolute;
-    width: 28px;
-    height: 5px;
-    left: 1012px;
-    top: 1435px;
-
+    margin-top:15px;
+    width: 5px;
+    height: 28px;
     background: #171717;
     border-radius: 5px;
-    transform: rotate(-90deg);
 }
 
 .Tepaga3 {
-    position: absolute;
-    width: 28px;
-    height: 5px;
-    left: 1012px;
-    top: 1341px;
-
+    width: 5px;
+    height: 28px;
     background: #171717;
     border-radius: 5px;
-    transform: rotate(-90deg);
+    margin-top:17px;
+
 }
 
 .Tepaga4 {
-    position: absolute;
-    width: 28px;
-    height: 5px;
-    left: 1012px;
-    top: 1388px;
+    margin-top:17px;
+
+    width: 5px;
+    height: 28px;
 
     background: #171717;
     border-radius: 5px;
-    transform: rotate(-90deg);
 }
 
 .rabota {
-    position: absolute;
     width: 493px;
     height: 180px;
-    left: 1036px;
-    top: 1248px;
+    margin-left: 20px;
 
     font-family: 'Manrope';
     font-style: normal;
@@ -927,11 +874,10 @@ body {
 }
 
 .vash {
-    position: absolute;
     width: 210px;
     height: 22px;
-    left: 1066px;
-    top: 1493px;
+    margin-left: 80px;
+    margin-top: -10px;
 
     font-family: 'Manrope';
     font-style: normal;
@@ -941,26 +887,27 @@ body {
 
     color: #17181C;
 }
+.salom{
+    margin-left: 50px;
+    display: flex;
+    width: 100%;
+}
 
 .inputNumbur {
-    position: absolute;
     width: 350px;
     height: 66px;
-    left: 1038px;
-    top: 1550px;
-
+margin-left: 50px;
     background: #FFFFFF;
     border-radius: 5px;
     border: none;
 }
 
 .callNumber {
-    position: absolute;
     width: 250px;
     height: 66px;
-    left: 1088px;
-    top: 1643px;
-
+display: block;
+margin-top: 20px;
+margin-left: 90px;
     background: #FFD300;
     border-radius: 5px;
     border: none;
@@ -1147,10 +1094,10 @@ body {
     width: 426px;
     height: 560px;
     background: #17181cea;
-    -webkit-transform: translate(-50%, 50%,-50%,50%);
-    -moz-transform: translate(-50%, 50%,-50%,50%);
-    -ms-transform: translate(-50%, 50%,-50%,50%);
-    -o-transform: translate(-50%, 50%,-50%,50%);
+    -webkit-transform: translate(-50%, 50%, -50%, 50%);
+    -moz-transform: translate(-50%, 50%, -50%, 50%);
+    -ms-transform: translate(-50%, 50%, -50%, 50%);
+    -o-transform: translate(-50%, 50%, -50%, 50%);
 }
 
 .btncall {
@@ -1183,33 +1130,36 @@ body {
     top: 163px;
     left: 57px;
 }
-.tellcalltitlebash{
+
+.tellcalltitlebash {
     position: absolute;
-width: 210px;
-height: 22px;
-left: 89px;
-top: 282px;
+    width: 210px;
+    height: 22px;
+    left: 89px;
+    top: 282px;
 
 
-font-family: 'Manrope';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 19px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
 
-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
-.tellcalltitleinput{
+
+.tellcalltitleinput {
     position: absolute;
-width: 294px;
-height: 61px;
+    width: 294px;
+    height: 61px;
 
-background: #FFFFFF;
-border-radius: 5px;
-top: 320px;
-left: 64px;
-margin: 10px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    top: 320px;
+    left: 64px;
+    margin: 10px;
 }
-.hiden{
+
+.hiden {
     display: none;
 }
