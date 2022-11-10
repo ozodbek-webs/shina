@@ -6,6 +6,8 @@
   width: 100%;
   padding: 93px 0 233px;
   &__title {
+    width: 774px;
+    margin: 0 auto;
     font-weight: 800;
     font-size: 45px;
     line-height: 55px;
@@ -60,6 +62,7 @@
       font-weight: 800;
       font-size: 45px;
       line-height: 55px;
+      width: 100%;
     }
 
     &__wrap {
@@ -74,6 +77,9 @@
 
     &__list {
       width: 100%;
+    }
+    &__item {
+      height: 80px;
     }
   }
 }
@@ -98,7 +104,7 @@
 
     &__item {
       height: 69px;
-      padding: 0;
+      padding: 0 39px 0 0;
     }
   }
 }
