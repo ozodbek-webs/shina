@@ -45,6 +45,14 @@
   }
 }
 
+@media screen and (max-width: 1040px) {
+  .benefits {
+    &__list {
+      width: 298px;
+    }
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .benefits {
     padding: 73px 0 203px;
@@ -61,6 +69,7 @@
     &__img {
       width: 275px;
       height: 325.07px;
+      margin: 44px 0;
     }
 
     &__list {
